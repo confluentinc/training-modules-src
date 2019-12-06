@@ -1,0 +1,15 @@
+{"namespace": "agg.experiment",
+    "type": "record",
+    "name": "SalesInfo",
+    "fields": [
+        {
+            "name": "region",
+            "type": "string",
+            "doc" : "The region where the sale is taking place"},
+        {
+            "name": "amount",
+            "type": "int",
+            "doc": "The amount of units being sold"
+        }
+    ]
+}
